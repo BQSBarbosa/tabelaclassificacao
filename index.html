@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de Classificação - AULA 6</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de Classificação<br>Brasileirão</h1>
+
+  <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/42/Campeonato_Brasileiro_Série_A_logo.png/170px-Campeonato_Brasileiro_Série_A_logo.png" class="page-logo" alt="">
+
+  <div class="form-wrapper">
+    <input type="string" id="nomeNovoJogador" size="2" placeholder="Nome do Clube" <br>
+    <input type="string" id="imagemNovoJogador" size="2" placeholder="URL da Imagem do Escudo do Clube" <br>
+    <button type="submit" onclick=inserirNovoJogador()>Inserir Clube</button>
+  </div>
+
+  <h2>Localize o escudo do Clube aqui:<br><a href="https://www.escudosfc.com.br/bras.htm" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/53/53255.png" alt="" class="escudo-logo"></a>
+
+    <table style="width:100%">
+      <thead id="cabecalhoTabela">
+
+      </thead>
+      <tbody id="tabelaJogadores"></tbody>
+    </table>
+    <br><br>
+
+    <input class="form-wrapper2" type="submit" value="Reiniciar Campeonato" onclick="limparTabela()">
+    <input class="form-wrapper2" type="submit" value="Finalizar Campeonato" onclick="finalizarTorneio()">
+    <div id="resultado"></div>
+
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="imersao-logo" alt="">
+    </a>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
